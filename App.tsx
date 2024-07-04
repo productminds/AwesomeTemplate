@@ -66,7 +66,7 @@ function App(): React.JSX.Element {
   };
 
   useEffect(() => {
-    Braze.changeUser('testing4');
+    Braze.changeUser('testing-addi');
   }, []);
 
   return (
